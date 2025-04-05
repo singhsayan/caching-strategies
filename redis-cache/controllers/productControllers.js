@@ -1,7 +1,7 @@
 import redisClient from '../redisClient.js';
 import findProductById from '../db/db.js';
 
-const TTL = 60; // 1 minute
+const TTL = 60; 
 
 const getProduct = async (req, res) =>{
   const id = req.params.id;
