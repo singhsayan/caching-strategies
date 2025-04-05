@@ -7,12 +7,12 @@ A high-performance Node.js application that demonstrates a real-world Redis cach
 
 ## Concepts Covered
 
-✅ Redis as a caching layer  
-✅ TTL-based cache invalidation strategy  
-✅ Cache Miss vs Cache Hit logic  
-✅ Dockerized microservice setup  
-✅ Logging for observability and debugging  
-✅ Simulated database layer
+ Redis as a caching layer  
+ TTL-based cache invalidation strategy  
+ Cache Miss vs Cache Hit logic  
+ Dockerized microservice setup  
+ Logging for observability and debugging  
+ Simulated database layer
 
 ---
 
@@ -31,8 +31,6 @@ A high-performance Node.js application that demonstrates a real-world Redis cach
 
 - [Docker](https://www.docker.com/) and Docker Compose installed on your system
 
-### ⚙️ Run the App Locally with Docker
-
 ---
 ## Docker Containers
 - ![image](https://github.com/user-attachments/assets/0f7d14ad-23ad-41c7-a8d3-79a1a92a0f98)
@@ -40,7 +38,7 @@ A high-performance Node.js application that demonstrates a real-world Redis cach
 
 ---
 ## API ENDPOINT
-- ** Example: curl http://localhost:8000/api/products/1
+- Example: curl http://localhost:8000/api/products/1
 ## Output 
 - ![image](https://github.com/user-attachments/assets/4bc3448f-aaa2-4dc1-b6b3-e14506a51718)
 
@@ -48,7 +46,8 @@ A high-performance Node.js application that demonstrates a real-world Redis cach
 - ![image](https://github.com/user-attachments/assets/8827f530-34b9-4264-9529-cda599857ecf)
 - ![image](https://github.com/user-attachments/assets/32ef83fe-83ad-4578-82cb-00575497729b)
 
-
+---
+### ⚙️ Run the App Locally with Docker
 ```bash
 docker-compose up --build
 
